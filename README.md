@@ -44,5 +44,15 @@ Speed: 7.3ms pre-process, 4.5ms inference, 42.3ms NMS per image at shape (1, 3, 
 **inference:   pytorch 60.5ms  | tensorRT  4.5ms**
 
 ![bus](https://github.com/pchxp/yolov5_tensorRT/assets/31230133/4fffa94b-efc6-46c4-a967-9c67daa66441)
+
+## References
+```
+https://github.com/ultralytics/yolov5
+```
+
+## Author
+```
+ChangHyun Park: sigpch@naver.com
+```
   
 
