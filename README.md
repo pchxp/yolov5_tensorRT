@@ -47,6 +47,7 @@ Speed: 7.3ms pre-process, 4.5ms inference, 42.3ms NMS per image at shape (1, 3, 
 
 ## References
 ```
+https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/index.html
 https://github.com/ultralytics/yolov5
 ```
 
