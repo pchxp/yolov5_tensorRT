@@ -2,7 +2,7 @@
 
 - tensorRT docker pull
 ```
-sudo docker run --gpus all -it nvcr.io/nvidia/tensorrt:23.11-py3-y5
+sudo docker run --gpus all -it nvcr.io/nvidia/tensorrt:23.11-py3
 ```
 
 - yolov5 install
@@ -11,7 +11,7 @@ git clone https://github.com/ultralytics/yolov5
 
 cd yolov5
 
-pip install -r requirements.txt  # install  
+pip install -r requirements.txt
 ```
 
 - convert pt to tensorRT
