@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 - convert pt to tensorRT
 ```
-python export.py --weights yolov5s.pt --include torchscript onnx  # pt -> onnx
+python export.py --weights yolov5s.pt --include onnx  # pt -> onnx
 
 trtexec --onnx=yolov5s.onnx --saveEngine=yolov5s.engine   # onnx -> tensorRT
 
